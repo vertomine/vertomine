@@ -1,0 +1,172 @@
+/* 全局设置 */
+body {
+  background-color: #0d0d0d; /* 深色背景 */
+  color: #f0f0f0; /* 浅色文字 */
+  font-family: 'Roboto', sans-serif; /* 现代感字体 */
+}
+
+.App {
+  text-align: center;
+}
+
+/* 头部样式 */
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #333333; /* 深色分割线 */
+  margin-bottom: 20px;
+  background-color: #1b1b1b; /* 更深的黑灰色背景 */
+}
+
+.logo-section {
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.community-icons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.community-icon {
+  color: #00d4ff; /* 明亮的蓝色图标 */
+}
+
+.community-icon:hover {
+  color: #00aaff; /* 悬停时的浅蓝色 */
+}
+
+/* 导航栏样式 */
+.navbar {
+  background-color: #1b1b1b !important; /* 深黑灰色导航背景 */
+  border-bottom: 1px solid #333333; /* 深色分割线 */
+  padding-left: 20px;  /* 左边距 */
+  padding-right: 20px; /* 右边距 */
+}
+
+.navbar-light .navbar-nav {
+  display: flex;
+  gap: 20px; /* 按钮之间的间距 */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f0f0f0; /* 浅色导航文字 */
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #262626; /* 导航按钮背景色 */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00d4ff; /* 悬停时的蓝色 */
+  background-color: #333333; /* 悬停时的背景色 */
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #00d4ff; /* 激活状态的蓝色 */
+  background-color: #333333; /* 激活状态的背景色 */
+}
+
+/* 钱包部分样式 */
+.wallet-section {
+  margin-top: 20px;
+}
+
+.wallet-info {
+  display: flex;
+  gap: 15px;
+  background-color: #262626; /* 深灰色背景 */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.chain-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.wallet-address,
+.wallet-balance {
+  color: #f0f0f0; /* 浅色文本 */
+}
+
+.btn-primary {
+  background-color: #00d4ff; /* 明亮的蓝色按钮 */
+  border-color: #00d4ff;
+}
+
+.btn-primary:hover {
+  background-color: #00aaff; /* 悬停时浅蓝色 */
+  border-color: #00aaff;
+}
+
+.btn-danger {
+  background-color: #ff4d4d; /* 明亮的红色按钮 */
+  border-color: #ff4d4d;
+}
+
+.btn-danger:hover {
+  background-color: #ff3333; /* 悬停时浅红色 */
+  border-color: #ff3333;
+}
+
+/* 挖矿与邀请部分样式 */
+.mining-status-section,
+.invite-link-section,
+.invite-records-section {
+  background-color: #262626; /* 深灰色背景 */
+  border-radius: 10px;
+  padding: 20px;
+  color: #f0f0f0; /* 浅色文本 */
+  border: 1px solid #333333; /* 深色边框 */
+}
+
+.invite-page {
+  margin-top: 40px;
+}
+
+.invite-link-section input {
+  background-color: #1b1b1b; /* 深色输入框背景 */
+  color: #f0f0f0; /* 浅色文字 */
+  border: 1px solid #333333; /* 深色边框 */
+}
+
+.invite-link-section button {
+  background-color: #00d4ff; /* 明亮的蓝色按钮 */
+  border-color: #00d4ff;
+}
+
+.invite-link-section button:hover {
+  background-color: #00aaff; /* 悬停时浅蓝色 */
+  border-color: #00aaff;
+}
+
+/* 表单与交易记录 */
+.form-control {
+  background-color: #1b1b1b; /* 深色输入框背景 */
+  color: #f0f0f0; /* 浅色输入文字 */
+  border: 1px solid #333333; /* 深色边框 */
+}
+
+.form-control:focus {
+  background-color: #1b1b1b;
+  color: #f0f0f0;
+  border-color: #00d4ff; /* 焦点时蓝色边框 */
+  box-shadow: none;
+}
+
+.list-group-item {
+  background-color: #262626; /* 深灰色列表背景 */
+  color: #f0f0f0; /* 浅色文字 */
+  border: 1px solid #333333; /* 深色边框 */
+}
+
+.list-group-item a {
+  color: #00d4ff; /* 明亮的蓝色链接 */
+}
+
+.list-group-item a:hover {
+  color: #00aaff; /* 悬停时的浅蓝色 */
+}
